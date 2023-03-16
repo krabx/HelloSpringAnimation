@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PresentViewController.swift
 //  HelloSpringAnimation
 //
 //  Created by Богдан Радченко on 16.03.2023.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class PresentViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
