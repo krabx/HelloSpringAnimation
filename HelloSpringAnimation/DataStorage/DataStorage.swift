@@ -8,7 +8,6 @@
 import SpringAnimation
 
 final class DataStorage {
-    
     static let shared = DataStorage()
     
     let animationPreset = AnimationPreset.allCases

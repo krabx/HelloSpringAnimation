@@ -6,7 +6,6 @@
 //
 
 struct Animation {
-    
     let animationName: String
     let curveName: String
     var forceAnimation: Float {
