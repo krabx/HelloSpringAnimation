@@ -23,8 +23,8 @@ final class PresentViewController: UIViewController {
     
     @IBOutlet var startButton: UIButton!
     
-    var currentAnimation = ""
-    lazy var nextAnimation = animations[Int.random(in: 0..<animations.count)].animationName
+    private var currentAnimation = ""
+    lazy private var nextAnimation = animations[Int.random(in: 0..<animations.count)].animationName
     
     override func viewDidLoad() {
         super.viewDidLoad()
