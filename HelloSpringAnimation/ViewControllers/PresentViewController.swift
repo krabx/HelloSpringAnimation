@@ -9,7 +9,7 @@ import UIKit
 import SpringAnimation
 
 final class PresentViewController: UIViewController {
-    let animations = Animation.getAnimations()
+    private let animations = Animation.getAnimations()
     
     @IBOutlet var animationView: SpringView!
     
